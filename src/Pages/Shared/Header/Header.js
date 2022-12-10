@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../../assets/RahatResume.pdf'
 
 const Header = () => {
     return (
@@ -43,7 +44,21 @@ const Header = () => {
                 </ul> */}
             </div>
             <div className="navbar-end">
-                <Link className="btn">Resume</Link>
+                <a
+                    href="javascript:void(
+        window.open(
+          'https://form.jotform.com/223434507789465',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+                    Contact
+                </a>
+                <a href={resume} download="rahat_resume" className="btn mx-4">Resume</a>
             </div>
         </div>
     );

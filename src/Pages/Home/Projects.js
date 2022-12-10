@@ -1,10 +1,45 @@
 import React from 'react';
+import cartivate from "../../assets/images/cartivate.png"
+import GameMaster from "../../assets/images/GameMaster.png"
+import LearningSpree from "../../assets/images/LearningSpree.png"
 
 const Projects = () => {
     return (
         <div className='bg-base-300 min-h-screen'>
-
-        </div>
+            <h1 className='text-4xl font-semibold py-10'>Projects</h1>
+            <div className='w-10/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-7'>
+                <div className="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src={cartivate} alt="project" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Cartivate</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <a href="https://cartivate-0.web.app/"><button className=" btn btn-primary">Visit</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src={GameMaster} alt="project" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">GameMaster</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <a href="https://gamemaster-f68f3.web.app/"><button className="btn btn-primary">Visit</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src={LearningSpree} alt="project" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">LeaningSpree</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <a href="https://learning-spree.web.app/"><button className="btn btn-primary">Visit</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
     );
 };
 
