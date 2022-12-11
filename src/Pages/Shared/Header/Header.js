@@ -4,7 +4,7 @@ import resume from '../../../assets/RahatResume.pdf'
 
 const Header = () => {
     return (
-        <div className="navbar bg-black-900 bg-opacity-70 bg-clip-padding backdrop-filter backdrop-blur-xl px-20 shadow-lg sticky top-0">
+        <div className="navbar z-30 bg-black-900 bg-opacity-70 bg-clip-padding backdrop-filter backdrop-blur-xl px-20 shadow-lg sticky top-0">
             <div className="navbar-start">
                 {/* <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@ const Header = () => {
                 </ul> */}
             </div>
             <div className="navbar-end">
-                <a
+                {/* <a
                     href="javascript:void(
         window.open(
           'https://form.jotform.com/223434507789465',
@@ -57,7 +57,7 @@ const Header = () => {
       )
     ">
                     Contact
-                </a>
+                </a> */}
                 <a href={resume} download="rahat_resume" className="btn mx-4">Resume</a>
             </div>
         </div>
