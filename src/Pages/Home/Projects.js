@@ -12,7 +12,7 @@ const Projects = () => {
                     <figure><img src={cartivate} alt="project" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Cartivate</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>A web-site on resale products</p>
                         <div className="card-actions justify-end">
                             <a href="https://cartivate-0.web.app/"><button className=" btn btn-primary">Visit</button></a>
                         </div>
@@ -22,7 +22,7 @@ const Projects = () => {
                     <figure><img src={GameMaster} alt="project" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">GameMaster</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Gaming lesson, trainer website</p>
                         <div className="card-actions justify-end">
                             <a href="https://gamemaster-f68f3.web.app/"><button className="btn btn-primary">Visit</button></a>
                         </div>
@@ -32,7 +32,7 @@ const Projects = () => {
                     <figure><img src={LearningSpree} alt="project" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">LeaningSpree</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Learning website</p>
                         <div className="card-actions justify-end">
                             <a href="https://learning-spree.web.app/"><button className="btn btn-primary">Visit</button></a>
                         </div>
