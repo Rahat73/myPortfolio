@@ -14,7 +14,7 @@ module.exports = {
       'md': '0 2px 2px #000',
       'h2': '0 0 3px #FF0000, 0 0 5px #0000FF',
       'h1': '0 0 4px rgba(255, 255, 255, .8), 0 0 5px rgba(255, 255, 255, 1)',
-      'main': '0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff'
+      'main': '0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff'
     }
   },
   plugins: [require("daisyui"), require('tailwindcss-textshadow')],
