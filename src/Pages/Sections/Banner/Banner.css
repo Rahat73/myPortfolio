@@ -1,6 +1,6 @@
 .box {
-    width: 600px;
-    height: 150px;
+    width: 400px;
+    height: 100px;
 }
 
 .lightbar {
@@ -25,7 +25,7 @@
 
     90%,
     100% {
-        transform: scaleY(1) translateX(calc(600px - 12px));
+        transform: scaleY(1) translateX(calc(400px - 8px));
     }
 
 }
@@ -71,4 +71,19 @@
     100% {
         transform: translateX(0%);
     }
+}
+
+.rotation {
+    transform-origin: right;
+    transform: perspective(300px) rotateY(-5deg);
+
+}
+
+.texts {
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.texts:hover {
+    transform: scale(1.5) perspective(300px) rotateY(1deg);
 }
