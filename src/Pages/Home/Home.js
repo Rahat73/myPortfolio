@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillsCanvas from '../MySkills/SkillsCanvas';
 import Banner from '../Sections/Banner/Banner';
 import Projects from '../Sections/Projects';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Projects></Projects>
+            <SkillsCanvas></SkillsCanvas>
         </div>
     );
 };
