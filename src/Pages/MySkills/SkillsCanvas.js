@@ -3,8 +3,9 @@ import TextShpere from './TextSphere';
 
 const SkillsCanvas = () => {
     return (
-        <div>
-            <TextShpere></TextShpere>
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
+            <div></div>
+            <div><TextShpere></TextShpere></div>
         </div>
     );
 };

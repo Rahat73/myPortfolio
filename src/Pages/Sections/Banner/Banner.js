@@ -1,8 +1,8 @@
-import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import './Banner.css'
 
-const Banner = () => {
+const Banner = ({ handleSection }) => {
+
     return (
         <div className='min-h-screen p-10'>
             <div className='relative flex justify-center items-center box  bg-base-100'>
@@ -12,11 +12,9 @@ const Banner = () => {
             </div>
             <Zoom top cascade>
                 <div className='rotation'>
-
-                    <div className='flex justify-end'><h1 className='text-6xl font-extrabold font-zendots textscale'>This is a text</h1></div>
-                    <div className='flex justify-end my-5'><h1 className='text-6xl font-extrabold font-zendots textscale'>Now second text</h1></div>
-                    <div className='flex justify-end'><h1 className='text-6xl font-extrabold font-zendots textscale'>Lastly third text</h1></div>
-
+                    <div className='flex justify-end'><button onClick={() => handleSection("aboutme")}><h1 className='text-6xl font-extrabold font-zendots textscale'>ABOUT ME</h1></button></div>
+                    <div className='flex justify-end my-5'><button onClick={() => handleSection("projects")}><h1 className='text-6xl font-extrabold font-zendots textscale'>PROJECTS</h1></button></div>
+                    <div className='flex justify-end'><button onClick={() => handleSection("skills")}><h1 className='text-6xl font-extrabold font-zendots textscale'>MY SKILLS</h1></button></div>
                 </div>
             </Zoom>
         </div >
