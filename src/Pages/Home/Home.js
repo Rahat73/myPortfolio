@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import SkillsCanvas from '../MySkills/SkillsCanvas';
-import Banner from '../Sections/Banner/Banner';
-import Projects from '../Sections/Projects';
+import Banner from '../Banner/Banner';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     const projects = useRef(null);
